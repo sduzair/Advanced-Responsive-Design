@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Typography</title>
+  <!-- Prevent smartphones from scaling pages down -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Keywords" content="laptops, xbox, software, office" />
+  <meta name="Description" content="Software and hardware website" />
+  <!-- Normalize.css makes browsers render all elements more consistently and in line with modern standards. -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/page.css">
+  <link rel="stylesheet" type="text/css" href="css/xbox.css">
+  <link rel="stylesheet" type="text/css" href="css/xbox-carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/xbox-gallery.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+
+  <header>
+    <div class="container hd-container">
+      <div class="logo-block">
+        <img alt="logo" src="img/logo.png">
+      </div>
+      <nav id="mySidebar" class="right-menu sidebar width-sidebar">
+        <ul>
+          <li class="nav-item"><a href="javacript:void(0)" class="closebtn" onclick="closeNav()">X</a></li>
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="#">Microsoft 365</a></li>
+          <li class="nav-item"><a href="#">Office</a></li>
+          <li class="nav-item"><a href="laptops.html">Laptops</a></li>
+          <li class="nav-item"><a href="xbox.html">Xbox</a></li>
+          <li class="nav-item"><a href="windows10.html">Windows 10</a></li>
+          <li class="nav-item"><a href="#">Windows 11</a></li>
+        </ul>
+      </nav>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><img src="icons/menu.png" alt="menu button" width="30"></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="slideshow-container">
+
+      <div class="mySlides carousel-1-color">
+        <div class="numbertext">1 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <h2>Game like a <i>pro</i>, on the <i>go</i>
+            </h2>
+          </div>
+          <div class="carousel-grid-item-2 rgt-book">
+            <picture>
+              <img src="img/xbox/carousel1/Wallpaper_for_Laptop_Background_70_images_m68lhm_c_scale,w_2040.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides carousel-2-color">
+        <div class="numbertext">2 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <h2>Engage in a virtual space that appears <i>realistic</i>
+            </h2>
+          </div>
+          <div class="rgt-book carousel-grid-item-2">
+            <picture>
+              <img src="img/xbox/carousel2/oculus-model_z1umx3_c_scale,w_1600.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides carousel-3-color">
+        <div class="numbertext">3 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <h2>Rule the gaming world
+            </h2>
+          </div>
+          <div class="rgt-book carousel-grid-item-2">
+            <picture>
+              <source media="(max-width: 481px)" srcset="
+img/xbox/carousel3/chris-taljaard-S__3xvlGDe8-unsplash_iz3p6r_c_scale,w_2040_cropped_mobile.jpg 2040w">
+              <source media="(max-width: 960px)" srcset="
+img/xbox/carousel3/chris-taljaard-S__3xvlGDe8-unsplash_iz3p6r_c_scale,w_2040_cropped_mobile.jpg 2040w">
+              <img srcset="
+img/xbox/carousel3/chris-taljaard-S__3xvlGDe8-unsplash_iz3p6r_c_scale,w_2040.jpg 2040w"
+                src="img/xbox/carousel3/chris-taljaard-S__3xvlGDe8-unsplash_iz3p6r_c_scale,w_2040.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <main class="main-section">
+
+    <div class="container">
+      <!-- Photo Grid -->
+      <div class="myGallery">
+
+        <div class="item item1">
+          <div class="item1-text">
+            <p class="item-heading">The Elder Scrolls Online
+            </p>
+            <p class="item-text">Morrowind zone now free for all ESO players</p>
+            <a href="#" class="item1-link">LEARN MORE >></a>
+          </div>
+          <div class="overflow-hidden">
+            <picture>
+              <source media="(min-width: 800px)"
+                srcset="img/xbox/flex-gal/apps.13845.13528939670494828.9f1c9646-ec16-415c-89c6-43719916ff4f.jpg">
+              <source media="(min-width: 0)"
+                srcset="img/xbox/flex-gal/apps.13845.13528939670494828.9f1c9646-ec16-415c-89c6-43719916ff4f_cropped_mobile.jpg">
+              <img src="img/xbox/flex-gal/apps.13845.13528939670494828.9f1c9646-ec16-415c-89c6-43719916ff4f.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+        <div class="item item2">
+          <img src="img/xbox/flex-gal/44a664cc-41f7-460b-9597-0257f60d254b.jpg" />
+          <span class="caption">
+            <p class="item-heading">Hello Neighbor 2</p>
+            <p class="item-text">Pre-order and get exclusive Beta access!</p>
+            <a href="#" class="item2-link">LEARN MORE >></a>
+          </span>
+        </div>
+        <div class="item item3">
+          <img src="img/xbox/flex-gal/bfa9991e-e6fc-48a4-8cad-3b2e196d655e.jpg" />
+          <span class="caption">
+            <p class="item-heading">Age of Empires II: Definitive Edition</p>
+            <p class="item-text">Get the all-new Dynasties of India expansion</p>
+            <a href="#" class="item3-link">PRE-ORDER NOW >></a>
+          </span>
+        </div>
+
+        <div class="item item4">
+          <div class="item4-text">
+            <p class="item-heading">STRANGER OF PARADISE
+            </p>
+            <p class="item-text">The new action RPG from Team Ninja, Koei Tecmo, & Square Enix has arrived</p>
+            <a href="#" class="item4-link">GET IT NOW >></a>
+          </div>
+          <div class="overflow-hidden">
+            <picture>
+              <source media="(min-width: 800px)" srcset="img/xbox/flex-gal/6459f081-78e5-495c-8104-eec9a29b5d13.jpg">
+              <source media="(min-width: 0)"
+                srcset="img/xbox/flex-gal/6459f081-78e5-495c-8104-eec9a29b5d13_cropped_mobile.jpg">
+              <img src="img/xbox/flex-gal/6459f081-78e5-495c-8104-eec9a29b5d13.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-block">
+
+        <div class="sc-lf-block">
+          <h2 class="title">Xbox Game Pass</h2>
+          <p>Immerse yourself in a library of over 100 high-quality games. Enjoy the benefits of Xbox Live Gold, EA
+            Play, and play across devices from the cloud when you join Xbox Game Pass Ultimate.</p>
+          <strong>With Xbox Game Pass you and the people you share with can:</strong>
+          <ul>
+            <li>PLAY 100+ HIGH-QUALITY GAMES</li>
+            <li>New games added all the time, including day one releases</li>
+            <li>Free Perks and exclusive member discounts</li>
+            <li>Play on PCs, phones & tablets from the cloud</li>
+            <li>EA Play membership included</li>
+            <li>Xbox Live Gold included</li>
+
+          </ul>
+          <i>*Subscription continues automatically at $16.99/mo. unless cancelled through your Microsoft Account. <a
+              href="">See terms.</a></i>
+        </div>
+        <aside class="sc-right-block">
+          <strong><strike>CAD $16.99/month</strike> CAD $1.00/month
+            94% off</strong>
+          <a class="dn-btn" href="#">Buy and Download</a>
+          <a class="nm-link" href="#">Try it free for one month</a>
+          <span class="note-info">Subscription automatically renews. Cancel anytime to stop future charges**</span>
+
+        </aside>
+      </div>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-block">
+        <div class="left-footer"><span>© Misoft 2022</span></div>
+        <div class="right-footer">
+          <a href="#">Privacy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- scripts -->
+  <script src="js/navActive.js"></script>
+  <script src="js/carouselSlideshow.js"></script>
+  <script src="js/navResponsive.js"></script>
+</body>
+
+</html>

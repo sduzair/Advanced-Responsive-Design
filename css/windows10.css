@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif
+}
+
+.windows10container{
+  display: flex;
+  height: 50vh;
+  width:100%;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:10px;
+  background:#EAEDED;
+  overflow:hidden;
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(251, 82, 131, 1) 100%);
+  
+}
+
+.seta{
+  position:absolute;
+  width:30px;
+  height:30px;
+  background: url('https://cdn-icons-png.flaticon.com/512/271/271210.png');
+  background-size: contain;
+  margin-top: 380px;
+  animation: 1s anime ease-in-out infinite alternate;
+  
+  /*
+  animation-name: anime;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  */
+}
+
+@keyframes anime{
+  0%{
+    top:  5px;
+  }
+  100%{
+    top: 20px;
+  }
+}
+
+.texts{
+  font-family: sans-serif;
+  letter-spacing: .1em;
+}
+.texts h1{
+  font-size: 52px;
+  font-weight: 900;
+  color:#fff;
+}
+.texts p{
+   color:#000;
+  font-weight: 300;
+}
+
+.w-10-img{
+  max-width: 400px;
+  animation: controll 2s infinite alternate ease-in-out;
+}
+
+w-10-img{
+  width:100%;
+  animation: controll 2s infinite alternate ease-in-out;
+}
+
+@keyframes controll{
+0% {
+    transform: translate(-2%);
+}
+}
+
+
+.box{
+  background: #17202A;
+}
+
+.box a{
+  color: #fff;
+  letter-spacing: .1em;
+  font-family:sans-serif;
+  font-size:28px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: #000000;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+   max-width: 300px;
+    min-height: 250px;
+    background: #62c6e0 ;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #000;
+    margin:20px;
+    box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+.card:nth-child(2){
+   background: #62c6e0 ;
+}
+.card:last-child{
+   background: #62c6e0 ;
+}
+.card-title{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.card-content{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.card-btn:hover , .card:nth-child(2) .card-btn:hover , .card:last-child .card-btn:hover{
+   color:#17202A;
+   background: #FFF;
+}
+
+.image-container .container {
+  grid-template-columns: 10% 90%;
+}
+.right {
+  text-align: right;
+  margin-top: 34vh;
+}
+
+.image-container {
+  background: #f4f4f4;
+  padding: 30px 0px 3px;
+}
+.left , .right {
+  padding-top: 10px;
+}
+.left h2 , .right h2 {
+  font-weight: normal;
+  font-size: clamp(12px, 2.5vw, 36px);
+}

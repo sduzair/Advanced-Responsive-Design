@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Typography</title>
+  <!-- Prevent smartphones from scaling pages down -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Keywords" content="laptops, xbox, software, office" />
+  <meta name="Description" content="Software and hardware website" />
+  <!-- Normalize.css makes browsers render all elements more consistently and in line with modern standards. -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/page.css">
+  <link rel="stylesheet" type="text/css" href="css/laptops.css">
+  <link rel="stylesheet" type="text/css" href="css/laptops-carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/laptops-gallery.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+
+  <header>
+    <div class="container hd-container">
+      <div class="logo-block">
+        <img alt="logo" src="img/logo.png">
+      </div>
+      <nav id="mySidebar" class="right-menu sidebar width-sidebar">
+        <ul>
+         <li class="nav-item"><a href="javacript:void(0)" class="closebtn" onclick="closeNav()">X</a></li>
+         <li class="nav-item"><a href="index.html">Home</a></li>
+         <li class="nav-item"><a href="#">Microsoft 365</a></li>
+         <li class="nav-item"><a href="#">Office</a></li>
+         <li class="nav-item"><a href="laptops.html">Laptops</a></li>
+         <li class="nav-item"><a href="xbox.html">Xbox</a></li>
+         <li class="nav-item"><a href="windows10.html">Windows 10</a></li>
+         <li class="nav-item"><a href="#">Windows 11</a></li>
+        </ul>
+      </nav>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><img src="icons/menu.png" alt="menu button" width="30"></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="slideshow-container">
+
+      <div class="mySlides carousel-1-color">
+        <div class="numbertext">1 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <p class="heading-size">Find the laptop to fit your <i>lifestyle</i>.
+            </p>
+          </div>
+          <div class="rgt-book">
+            <picture>
+              <source media="(max-width: 481px)" srcset="
+img/laptops/carousel1/joshua-reddekopp-GkFQEOubrCo-unsplash_zuo9fw_c_scale,w_2040_cropped_mobile.jpg 1389w">
+              <source media="(max-width: 960px)" srcset="
+img/laptops/carousel1/joshua-reddekopp-GkFQEOubrCo-unsplash_zuo9fw_c_scale,w_2040.jpg 1389w">
+              <img srcset="
+img/laptops/carousel1/joshua-reddekopp-GkFQEOubrCo-unsplash_zuo9fw_c_scale,w_2040.jpg 2040w"
+                src="img/laptops/carousel1/joshua-reddekopp-GkFQEOubrCo-unsplash_zuo9fw_c_scale,w_2040.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides carousel-2-color">
+        <div class="numbertext">2 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <p class="heading-size">Strong <i>statement</i>, tiny <i>footprint</i>
+            </p>
+          </div>
+          <div class="rgt-book">
+            <picture>
+              <source media="(max-width: 481px)" srcset="
+img/laptops/carousel2/laptop-cat_images_hoc7oo_c_scale,w_2040_cropped_mobile.jpg">
+              <source media="(max-width: 960px)" srcset="
+img/laptops/carousel2/laptop-cat_images_hoc7oo_c_scale,w_2040_cropped_mobile.jpg">
+              <img srcset="
+img/laptops/carousel2/laptop-cat_images_hoc7oo_c_scale,w_2040.jpg"
+                src="img/laptops/carousel2/laptop-cat_images_hoc7oo_c_scale,w_2040.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides carousel-3-color">
+        <div class="numbertext">3 / 3</div>
+        <div class="carousel-grid-container">
+          <div class="carousel-grid-item-1">
+            <p class="heading-size">Designed to <i>impress</i> & <i>perform</i>
+            </p>
+          </div>
+          <div class="rgt-book">
+            <picture>
+              <source media="(max-width: 481px)"
+                srcset="img/laptops/carousel3/joshua-reddekopp-SyYmXSDnJ54-unsplash_qo6tdq_c_scale,w_2040_cropped_mobile.jpg">
+              <source media="(max-width: 960px)"
+                srcset="img/laptops/carousel3/joshua-reddekopp-SyYmXSDnJ54-unsplash_qo6tdq_c_scale,w_2040_cropped_mobile.jpg">
+              <img srcset="img/laptops/carousel3/joshua-reddekopp-SyYmXSDnJ54-unsplash_qo6tdq_c_scale,w_2040.jpg"
+                src="img/laptops/carousel3/joshua-reddekopp-SyYmXSDnJ54-unsplash_qo6tdq_c_scale,w_2040.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <main class="main-section">
+
+    <div class="container">
+
+      <!-- Photo Grid -->
+      <div class="myGallery">
+
+        <div class="item item1">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/laptops/gallery/RE4OXzi.png">
+            <source media="(min-width: 0px)" srcset="img/laptops/gallery/RE4OXzi_cropped_mobile.png">
+            <img src="img/laptops/gallery/RE4OXzi.png" />
+          </picture>
+          <span class="caption">
+            <p class="item-heading">The most powerful Pro</p>
+            <p class="item-text">Surface Pro 8 combines the power of a laptop with the flexibility of a tablet, and
+              every angle in between, with the iconic Kickstand and larger 13" touchscreen.</p>
+            <a href="#" class="item1-link">SEE IT IN ACTION >></a>
+          </span>
+        </div>
+        <div class="item item2">
+          <div class="item2-text">
+            <p class="item-heading">Unlock more possibilities
+            </p>
+            <p class="item-text">The first Surface Pro built on the Intel® Evo™ platform on select configurations†† and
+              designed to light up the best of Windows 11</p>
+            <a href="#" class="item2-link">LEARN MORE >></a>
+          </div>
+          <div class="overflow-hidden item2-img-container">
+            <picture>
+              <img
+                src="img/laptops/gallery/microsoft_surface_pro_8_13_pixelsense_touchscreen_tablet_-_platinum_-_1tejar_3.jpg" />
+            </picture>
+          </div>
+        </div>
+        <div class="item item3">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/laptops/gallery/surface_cropped_desktop.png">
+            <img src="img/laptops/gallery/surface_cropped_mobile.png" />
+          </picture>
+          <span class="caption">
+            <p class="item-heading">The ultimate creative studio.</p>
+            <p class="item-text">Let your ideas flow with brilliant color, blazing graphics, faster processors,
+              intuitive tools, and a stunning display</p>
+            <a href="#" class="item3-link">LEARN MORE >></a>
+          </span>
+        </div>
+
+        <div class="item item4">
+          <div class="item4-text">
+            <p class="item-heading">Breathtaking appeal
+            </p>
+            <p class="item-text">Form and function combine to provide with
+              superior airflow, compatibility, and aesthetics.</p>
+            <a href="#" class="item4-link">LEARN MORE >></a>
+          </div>
+          <div class="overflow-hidden item4-img-container">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/laptops/gallery/RWOOxp.jpg">
+              <img src="img/laptops/gallery/RWOOxp_cropped_mobile.jpg" />
+            </picture>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="fifith-block">
+        <div class="hd-bar">
+          <h2>Computers and tablets</h2>
+        </div>
+
+        <div class="my-str-block">
+
+          <div class="border-card">
+            <div class="br-img"><img alt="Downloads" src="img/laptops/fifth-block/laptop.png"></div>
+            <h3>Laptops & 2-in-1s</h3>
+            <p>Convertible laptops (also known as hybrid laptops) are shape-shifting computers that transform into a 2
+              in 1 laptop or tablet.</p>
+            <a href="#">View All</a>
+          </div>
+
+          <div class="border-card">
+            <div class="br-img"><img alt="virtual" src="img/laptops/fifth-block/monitor.png"></div>
+            <h3>Desktops & All-in-Ones</h3>
+            <p>All-in-one PCs differ from regular desktop computers in that they have all their internal components
+              integrated into one unit that also acts as a large display.</p>
+            <a href="#">View All</a>
+          </div>
+
+
+          <div class="border-card">
+            <div class="br-img"><img alt="Qa" src="img/laptops/fifth-block/ipad.png"></div>
+            <h3>Tablets</h3>
+            <p>Thin, ultralight tablets are, by definition, more portable than laptops, which have thicker
+              superstructures and heavier batteries.</p>
+            <a href="#">View All</a>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-block">
+        <div class="left-footer"><span>© Misoft 2022</span></div>
+        <div class="right-footer">
+          <a href="#">Privacy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- scripts -->
+  <script src="js/navActive.js"></script>
+  <script src="js/carouselSlideshow.js"></script>
+  <script src="js/navResponsive.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/*
+Meets the following WCAG 2.1 success criteria:
+Contrast (Minimum) Level AA
+Non-text Content Level A
+Text Spacing Level AA
+Content on Hover or Focus Level AA
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/* ****************LAPTOPS FIFLTH BLOCK STYLES  */
+
+.my-str-block {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(315px, 320px));
+  grid-template-rows: repeat(auto-fill, 400px);
+  grid-auto-flow: dense;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .my-str-block {
+    /* margin: auto 20vh; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 256px));
+    grid-template-rows: repeat(2, 400px);
+    grid-auto-flow: dense;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+.carousel-1-color {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.carousel-2-color {
+  color: #000000;
+  background-color: #fefefe;
+}
+
+.carousel-3-color {
+  color: #000000;
+  background-color: #ffe400;
+}
